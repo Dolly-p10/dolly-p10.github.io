@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Data Analyst Portfolio</title>
+  <!-- Tailwind Play CDN (quick prototyping) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--
+    HOW TO USE: replace the placeholder text, images and links below with your content.
+    Save this file as `index.html` at the root of a repo named `YOUR_USERNAME.github.io`
+    (see the chat for step-by-step publishing instructions).
+  -->
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <header class="bg-white shadow">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold">Your Name</a>
+      <nav class="space-x-4 text-sm">
+        <a href="#skills" class="hover:underline">Skills</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-6">
+    <!-- HERO / Intro -->
+    <section class="flex flex-col md:flex-row items-center gap-6">
+      <img src="assets/profile.jpg" alt="Your profile photo" class="w-28 h-28 rounded-full object-cover shadow-md" />
+      <div>
+        <h1 class="text-3xl font-semibold">Hi, I’m <span id="your-name">Your Name</span></h1>
+        <p class="mt-2 text-gray-600">A Business Data Analyst. Detail-oriented and analytical with hands-on experience in SQL, Excel, Power BI and Tableau. I turn raw data into clear business stories.</p>
+        <a href="#projects" class="inline-block mt-3 px-4 py-2 rounded bg-blue-600 text-white text-sm">View projects</a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="mt-8">
+      <h2 class="text-xl font-semibold mb-3">Key Skills</h2>
+      <div class="flex flex-wrap gap-2">
+        <span class="px-3 py-1 bg-white rounded shadow">SQL</span>
+        <span class="px-3 py-1 bg-white rounded shadow">Power BI</span>
+        <span class="px-3 py-1 bg-white rounded shadow">Tableau</span>
+        <span class="px-3 py-1 bg-white rounded shadow">Excel</span>
+        <span class="px-3 py-1 bg-white rounded shadow">Python</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="mt-8">
+      <h2 class="text-xl font-semibold mb-4">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+        <!-- Example project card: copy / paste to add more -->
+        <article class="bg-white p-4 rounded shadow">
+          <img src="assets/project1.jpg" alt="Project screenshot" class="w-full h-40 object-cover rounded" />
+          <h3 class="mt-3 font-semibold">E- Commerce Sales Optimization</h3>
+          <p class="text-sm text-gray-600">Explored customer buying behaviour to identify trends and recommend revenue opportunities.</p>
+          <div class="mt-3 flex gap-3 items-center">
+            <a href="projects/project1.html" class="text-sm underline">More</a>
+            <a href="https://github.com/yourusername/project1" class="text-sm">Code</a>
+          </div>
+        </article>
+
+        <!-- Add more project cards below -->
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="mt-8">
+      <h2 class="text-xl font-semibold mb-2">Contact</h2>
+      <p>Email: <a href="mailto:you@example.com" class="text-blue-600">you@example.com</a></p>
+      <p class="mt-1">Location: City, Country</p>
+      <div class="flex gap-3 mt-3">
+        <a href="https://linkedin.com/in/yourprofile" class="text-sm underline">LinkedIn</a>
+        <a href="https://www.instagram.com/yourprofile" class="text-sm underline">Instagram</a>
+      </div>
+    </section>
+
+    <footer class="mt-12 text-center text-xs text-gray-500">Built with ❤️ • <span id="site-year">2025</span></footer>
+  </main>
+
+  <!-- Optional: small script to update the year and make simple swaps -->
+  <script>
+    document.getElementById('site-year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- NOTES for editing:
+    1) Replace `assets/*.jpg` with your screenshots. Create a folder `assets/` in your repo and push images there.
+    2) Duplicate the project <article> block to add more projects. Point `More` to a project page or a GitHub repo.
+    3) To add individual project pages, create `projects/project1.html`, etc., and link them.
+    4) Use the Tailwind CDN for quick styling (this file uses it). For production, consider installing Tailwind locally.
+  -->
+</body>
+</html>
